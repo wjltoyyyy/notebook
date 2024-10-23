@@ -44,4 +44,26 @@
 |       Harbor       | 24.67 | 26.07 |
 +--------------------+-------+-------+
 2024/10/19 18:44:37 - mmengine - INFO - Iter(val) [4785/4785]    aAcc: 87.3000  mIoU: 27.8000  mAcc: 53.1500  data_time: 0.0010  time: 0.7079
+
+# 加工后的数据集v2
++--------------------+-------+-------+
+|       Class        |  IoU  |  Acc  |
++--------------------+-------+-------+
+|     background     | 84.06 | 85.75 |
+|        ship        | 45.83 | 61.08 |
+|     store_tank     | 44.81 | 90.12 |#
+|  baseball_diamond  | 54.96 | 68.75 |#
+|    tennis_court    |  61.1 | 82.58 |#
+|  basketball_court  |  25.4 | 53.88 |#
+| Ground_Track_Field | 12.83 | 26.74 |
+|       Bridge       |  0.0  |  0.0  |
+|   Large_Vehicle    | 40.28 | 62.26 |#
+|   Small_Vehicle    | 36.14 | 48.36 |#
+|     Helicopter     |  5.6  |  5.94 |#
+|   Swimming_pool    |  24.1 | 28.28 |#
+|     Roundabout     |  0.66 | 78.09 |
+| Soccer_ball_field  |  54.6 | 66.81 |#
+|       plane        | 39.07 | 46.82 |
+|       Harbor       | 37.21 | 52.57 |
++--------------------+-------+-------+
 ````
